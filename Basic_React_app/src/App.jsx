@@ -11,12 +11,12 @@ function Descriptions(){
 function App() {
 
   return (
-    <div>
+    <>
         <Title />
         <Descriptions />
         <Title />
         <Descriptions />
-    </div>
+    </>
   );
           
 }
