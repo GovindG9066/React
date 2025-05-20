@@ -1,6 +1,8 @@
 import './App.css'
-import Title from './Title';
-import Mul from './UsingOfCurlyBreses';
+
+// import Title from './Title';
+// import Mul from './UsingOfCurlyBreses';
+import ProductTab from './ProductTab';
 
 function Descriptions(){
   return(
@@ -12,11 +14,13 @@ function App() {
 
   return (
     <>
-        <Title />
+        {/* <Title />
         <Descriptions />
         <Title />
         <Descriptions />
-        <Mul />
+        <Mul /> */}
+
+          <ProductTab />
     </>
   );
           
