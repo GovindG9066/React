@@ -1,6 +1,6 @@
 import './App.css'
 import Title from './Title';
-
+import Mul from './UsingOfCurlyBreses';
 
 function Descriptions(){
   return(
@@ -16,6 +16,7 @@ function App() {
         <Descriptions />
         <Title />
         <Descriptions />
+        <Mul />
     </>
   );
           
