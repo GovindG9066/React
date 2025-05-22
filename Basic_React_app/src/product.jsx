@@ -4,7 +4,7 @@ function Product({title,price}){
     return(
         <div className="product">
         <h3>{title}</h3>
-        <h4>{price}</h4>
+        <h4>price:{price}</h4>
         </div>
     );
 }
