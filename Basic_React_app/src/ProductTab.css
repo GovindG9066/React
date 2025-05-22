@@ -7,4 +7,13 @@
     background-color:transparent;
     color: green;
     width: 70vw;
+    display: grid;
+}
+.product{
+    border: 2px solid green;
+    border-radius: 8px;
+    margin: 8px;
+    background: pink;
+    color: cornflowerblue;
+    font-style: italic;
 }
