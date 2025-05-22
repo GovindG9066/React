@@ -1,10 +1,10 @@
 import ProductTab from "./ProductTab";
 
-function Product(){
+function Product({title,price}){
     return(
         <div className="product">
-        <h3>Product Title</h3>
-        <h4>Product Desc</h4>
+        <h3>{title}</h3>
+        <h4>{price}</h4>
         </div>
     );
 }
