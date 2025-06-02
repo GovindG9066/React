@@ -1,32 +1,24 @@
-# React App Setup using Vite
+# 🚀 React Setup using Vite (JavaScript)
 
-This guide explains how to create and run a React project using **Vite**.
+This guide will help you quickly set up a React project using **Vite** and **JavaScript**.
 
-## Step-by-Step Setup
+---
 
-1. **Create the Project**
+## 📦 Step 1: Create a new Vite React project
 
+```bash
+npm create vite@latest
 
-2. **Enter Project Name**  
-_(For example: `my-react-app`)_
+✔ Project name: » Name
 
-3. **Enter Package Name**  
-Press `Enter` to accept the default (same as project name) or type a custom name.
+✔ Select a framework: › React
 
-4. **Select Framework**  
-Use arrow keys and select:
+✔ Select a variant: › JavaScript
 
+cd Name
 
-5. **Select Variant**  
-Use arrow keys and select:
+npm install
 
-_(You can choose TypeScript if you prefer)_
+npm run dev
 
-6. **Navigate to the Project Folder**
-
-
-7. **Install Dependencies**
-
-
-8. **Start the Development Server**
-
+✅ Done!
