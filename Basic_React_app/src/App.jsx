@@ -1,5 +1,6 @@
 import AmazonActivity from './AmazonActivity';
 import './App.css'
+import ClickEvents from './ClickEvents';
 import MsgBox from './MsgBox';
 
 import NewProduct from './newProduct';
@@ -28,6 +29,10 @@ function App() {
 
           <div>
             <AmazonActivity/>
+          </div>
+
+          <div>
+            <ClickEvents/>
           </div>
 
        </>
