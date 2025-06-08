@@ -1,0 +1,11 @@
+.AmazonContainer{
+    width: 80vw;
+    border-radius: 15px;
+    background-color: #fff;
+    color: black;
+    
+}
+.APT-Container{
+    display: flex;
+    margin-top: 10px;
+}

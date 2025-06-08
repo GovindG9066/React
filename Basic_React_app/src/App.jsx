@@ -1,3 +1,4 @@
+import AmazonActivity from './AmazonActivity';
 import './App.css'
 import MsgBox from './MsgBox';
 
@@ -24,7 +25,11 @@ function App() {
           <NewProduct name="Carrot" image="/Carrots.png" desc="This is the fresh carrots" amount={250} />
           <NewProduct name="Carrot" image="/Carrots.png" desc="This is the fresh carrots" amount={120} />
         
-      
+
+          <div>
+            <AmazonActivity/>
+          </div>
+
        </>
 
       
