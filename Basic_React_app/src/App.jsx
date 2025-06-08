@@ -15,10 +15,10 @@ function App() {
      
        <>
 
-          <NewProduct name="Carrot" image="/Carrots.png" desc="This is the fresh carrots" amount="$20" />
-          <NewProduct name="Carrot" image="/Carrots.png" desc="This is the fresh carrots" amount="$20" />
-          <NewProduct name="Carrot" image="/Carrots.png" desc="This is the fresh carrots" amount="$20" />
-          <NewProduct name="Carrot" image="/Carrots.png" desc="This is the fresh carrots" amount="$20" />
+          <NewProduct name="Carrot" image="/Carrots.png" desc="This is the fresh carrots" amount={20} />
+          <NewProduct name="Carrot" image="/Carrots.png" desc="This is the fresh carrots" amount={200} />
+          <NewProduct name="Carrot" image="/Carrots.png" desc="This is the fresh carrots" amount={250} />
+          <NewProduct name="Carrot" image="/Carrots.png" desc="This is the fresh carrots" amount={120} />
         
       
        </>

@@ -25,6 +25,27 @@
 
 
 }
+.discount{
+    font-weight: 800;
+    font-size: 16px;
+    color: rgb(205, 219, 9);
+    animation: bounce 0.5s ease-in-out 1s infinite  alternate ;
+}
+@keyframes bounce {
+    0%{
+        transform: translateY(0px);
+        
+        font-size: 16px;
+    }
+     50%{
+        transform: translateY(3px);
+        font-size: 20px;
+    }
+     100%{
+        transform: translateY(0px);
+        font-size: 16px;
+    }
+}
 .list{
     text-align: center;
     margin: 5px 0px ;
