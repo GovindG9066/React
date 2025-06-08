@@ -1,4 +1,5 @@
 import './App.css'
+import MsgBox from './MsgBox';
 
 import NewProduct from './newProduct';
 
@@ -13,15 +14,19 @@ function App() {
   return (
     
      
-       <>
+      //  <>
 
-          <NewProduct name="Carrot" image="/Carrots.png" desc="This is the fresh carrots" amount={20} />
-          <NewProduct name="Carrot" image="/Carrots.png" desc="This is the fresh carrots" amount={200} />
-          <NewProduct name="Carrot" image="/Carrots.png" desc="This is the fresh carrots" amount={250} />
-          <NewProduct name="Carrot" image="/Carrots.png" desc="This is the fresh carrots" amount={120} />
+      //     <NewProduct name="Carrot" image="/Carrots.png" desc="This is the fresh carrots" amount={20} />
+      //     <NewProduct name="Carrot" image="/Carrots.png" desc="This is the fresh carrots" amount={200} />
+      //     <NewProduct name="Carrot" image="/Carrots.png" desc="This is the fresh carrots" amount={250} />
+      //     <NewProduct name="Carrot" image="/Carrots.png" desc="This is the fresh carrots" amount={120} />
         
       
-       </>
+      //  </>
+
+      <>
+          <MsgBox username="Govind" textcolor="red"/>
+      </>
       
     
   );
