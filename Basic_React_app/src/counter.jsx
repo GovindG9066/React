@@ -1,16 +1,21 @@
+// const { useState } = require("react")
 import { useState } from "react";
 
-export default function Counter() {
-    const [count, setCount] = useState(0);
-
-    function IncCounter() {
-        setCount(count + 1);
+export default function counter() {
+    const [count,setCount]=useState(0)
+    function Inccount() {
+        setCount(count+1);
     }
+    
 
-    return (
+    return(
         <div>
-            <p>count= {count}</p>
-            <button onClick={IncCounter}>Click me to increase count</button>
+            <p>{count}</p>
+            <button onClick={Inccount}>CountIncrement</button>
+           
         </div>
     );
+
+
+
 }
