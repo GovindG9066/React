@@ -1,3 +1,4 @@
+import LikeBtn from './Activity2LikeBtn';
 import AmazonActivity from './AmazonActivity';
 import './App.css'
 import ClickEvents from './ClickEvents';
@@ -38,6 +39,10 @@ function App() {
 
           <div>
             <Counter/>
+          </div>
+
+          <div>
+            <LikeBtn/>
           </div>
 
        </>
