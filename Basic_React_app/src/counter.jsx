@@ -4,7 +4,16 @@ import { useState } from "react";
 export default function counter() {
     const [count,setCount]=useState(0)
     function Inccount() {
-        setCount(count+1);
+        setCount((currentCount)=>{
+            return currentCount+1;
+        });
+        setCount((currentCount)=>{
+             return currentCount+1;
+        });
+         setCount((currentCount)=>{
+             return currentCount+1;
+        });
+        
     }
     
 
