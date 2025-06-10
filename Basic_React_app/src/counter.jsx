@@ -1,4 +1,3 @@
-// const { useState } = require("react")
 import { useState } from "react";
 
 export default function counter() {
