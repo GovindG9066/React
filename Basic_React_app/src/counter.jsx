@@ -10,9 +10,7 @@ export default function counter() {
         setCount((currentCount)=>{
              return currentCount+1;
         });
-         setCount((currentCount)=>{
-             return currentCount+1;
-        });
+       
         
     }
     
