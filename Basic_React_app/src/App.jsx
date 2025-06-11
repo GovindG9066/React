@@ -3,6 +3,7 @@ import AmazonActivity from './AmazonActivity';
 import './App.css'
 import ClickEvents from './ClickEvents';
 import Counter from './counter';
+import LudoGame from './LudoGame';
 import MsgBox from './MsgBox';
 
 import NewProduct from './newProduct';
@@ -43,6 +44,10 @@ function App() {
 
           <div>
             <LikeBtn/>
+          </div>
+
+          <div>
+            <LudoGame/>
           </div>
 
        </>
