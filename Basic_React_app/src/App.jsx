@@ -4,6 +4,7 @@ import './App.css'
 import ClickEvents from './ClickEvents';
 import Counter from './counter';
 import LudoGame from './LudoGame';
+import LudoGame2 from './LudoGame2';
 import MsgBox from './MsgBox';
 
 import NewProduct from './newProduct';
@@ -48,6 +49,10 @@ function App() {
 
           <div>
             <LudoGame/>
+          </div>
+
+          <div>
+            <LudoGame2/>
           </div>
 
        </>
