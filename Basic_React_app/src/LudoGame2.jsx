@@ -13,17 +13,27 @@ export default function LudoGame2(){
             return{...preClick,Blue:preClick.Blue+1}
         })
     }
+    function Redmove() {
+        setClick((preClick)=>{
+            return{...preClick,Red:preClick.Red+1}
+        })
+    }
+    function Yellowmove() {
+        setClick((preClick)=>{
+            return{...preClick,Yellow:preClick.Yellow+1}
+        })
+    }
     return(
         <div>
             
             <button onClick={GreenClick} style={{backgroundColor:"green"}} >+1</button>
             <p>Green Move- {click.Green}</p>
-            <button style={{backgroundColor:"red"}}>+1</button>
-            <p>red Move</p>
+            <button style={{backgroundColor:"red"}} onClick={Redmove}>+1</button>
+            <p>red Move-{click.Red}</p>
             <button style={{backgroundColor:"blue"}} onClick={BlueClick}>+1</button>
             <p>blue Move- {click.Blue}</p>
-            <button style={{backgroundColor:"yellow"}}>+1</button>
-            <p>yellow Move</p>
+            <button style={{backgroundColor:"yellow"}} onClick={Yellowmove}>+1</button>
+            <p>yellow Move- {click.Yellow}</p>
         </div>
     );
 }
