@@ -6,6 +6,7 @@ import Counter from './counter';
 import LudoGame from './LudoGame';
 import LudoGame2 from './LudoGame2';
 import MsgBox from './MsgBox';
+import Arr from './arr';
 
 import NewProduct from './newProduct';
 
@@ -53,6 +54,10 @@ function App() {
 
           <div>
             <LudoGame2/>
+          </div>
+
+          <div>
+            <Arr/>
           </div>
 
        </>
