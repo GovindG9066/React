@@ -9,6 +9,7 @@ import MsgBox from './MsgBox';
 import Arr from './arr';
 
 import NewProduct from './newProduct';
+import TodoList from './TodoLIst';
 
 // import Title from './Title';
 // import Mul from './UsingOfCurlyBreses';
@@ -58,6 +59,10 @@ function App() {
 
           <div>
             <Arr/>
+          </div>
+
+          <div>
+            <TodoList/>
           </div>
 
        </>
